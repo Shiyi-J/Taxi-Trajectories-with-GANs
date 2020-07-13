@@ -1,0 +1,7 @@
+pip install ctgan
+pip install folium
+pip install fastdtw
+numpy>=1.17.4
+pandas>=0.25.1
+scikit-learn>=0.22.2
+tensorflow>=1.15.0
