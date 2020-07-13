@@ -1,8 +1,11 @@
 # Taxi-Trajectories-with-GANs
 ### Command inputs:
-1.model: CTGAN, RGAN or TimeGAN
-2.cate: taxi call type, A, B or C
-3.seq_len: length of recorded location points in a trajectory
+-model: CTGAN, RGAN or TimeGAN
+
+-cate: taxi call type, A, B or C
+
+-seq_len: length of recorded location points in a trajectory
+
 4.batch_size: number of samples in a batch
 5.epochs: iteration of training (for CTGAN epochs refer to the number of generated samples)
 6.parameter: dictionary with corresponding hyperparameters
