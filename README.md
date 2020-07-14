@@ -5,7 +5,7 @@ This project will generate taxi trajectories using three different GANs and will
 Dataset used for this project is from Kaggle ECML/PKDD 15: Taxi Trajectory Prediction (I) problem. We used train.csv.zip file in this project. The link for downloading the dataset is provided below:
 https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i/data
 
-Before running the command, you need to change the path `D = pd.read_csv('~/work/Taxi_Trajectories/train_taxi_trajectory.csv')` in the main function in Main.py to where you save downloaded dataset locally. Please check Requirement.txt as well to see if all the requirements are satisfied for running the program.
+Before running the command, you need to change the path `D = pd.read_csv('~/work/Taxi_Trajectories/train_taxi_trajectory.csv')` in the main function in Main.py to where you save downloaded dataset locally. Please check Requirements.txt as well to see if all the requirements are satisfied for running the program.
 
 ### Command inputs:
 -model: CTGAN, RGAN or TimeGAN
